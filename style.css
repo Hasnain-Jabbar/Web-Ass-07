@@ -1,0 +1,51 @@
+@font-face {
+    font-family: inter;
+    src: url(./Inter-Regular.ttf);
+}
+
+
+@media screen and (min-width: 992px) {
+    .sections {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .m-sec {
+
+        background-image: url(./sitting-character.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .m-sec {
+        background-color: #ffffff;
+    }
+}
+
+body{
+    font-family: inter;
+}
+ul{
+    list-style-type:none;
+}
+body{
+    user-select: none;
+}
+
+.img-sec:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: box-shadow 0.9s ease-in;
+}
+
+
+
+
+
+
+
+
+
